@@ -5,12 +5,27 @@
 
 body {
   background-color: #000;
+  height: 100vh;
+  box-sizing: border-box;
 }
+
+.container {
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .container__content {
+  width: 615px;
+  height: 482px;
+}
+
 section {
   color: #f6f6f6;
 }
 
-section h1 {
+section .container__content__title {
   font-family: "Krona One", sans-serif;
   font-size: 36px;
   font-style: normal;
@@ -26,12 +41,12 @@ section h1 {
   line-height: 56px;
 }
 
-p {
+section .container__content__text {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 36px; /* 150% */
+  line-height: 36px;
 }
 
 a {
@@ -47,11 +62,11 @@ a {
 }
 .links {
   display: flex;
-  width: 280px;
-  height: 79px;
-  padding: 16px;
   justify-content: center;
-  align-items: center;
-  gap: 16px;
-  flex-shrink: 0;
+}
+
+.profile {
+  width: 400px;
+  border-radius: 8px;
+  margin: 40px;
 }
