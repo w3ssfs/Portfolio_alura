@@ -49,20 +49,22 @@ section .container__content__text {
   line-height: 36px;
 }
 
-a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #22d4fd;
-  color: #000;
-  border: 0px solid #22d4fd;
-  border-radius: 16px;
-  width: 174px;
-  text-decoration: none;
-}
 .links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.links .links__a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: #22d4fd;
+  width: 280px;
+  padding: 21.5px 0px;
+  font-size: 24px;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
 }
 
 .profile {
