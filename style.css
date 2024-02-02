@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  margin: 10%;
+  margin: 10% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,7 +18,9 @@ body {
 
 .container .container__content {
   width: 615px;
-  height: 482px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 section {
@@ -68,7 +70,7 @@ section .container__content__text {
 }
 
 .profile {
-  width: 400px;
+  width: 480px;
   border-radius: 8px;
   margin: 40px;
 }
