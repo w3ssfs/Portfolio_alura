@@ -1,0 +1,13 @@
+:root {
+  /* COLOR */
+  --color-azul: #22d4fd;
+  --color-branco: #f6f6f6;
+
+  /* BACKGROUND */
+
+  --bg-black: #000;
+
+  /* FONTS */
+  --fonts-mont: "Montserrat", sans-serif;
+  --fonts-krona: "Krona One", sans-serif;
+}

@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: #000;
-  /* height: 100vh; */
+  /* background-color: #000; */
+  background-color: var(--bg-black);
   box-sizing: border-box;
 }
 
@@ -18,10 +18,10 @@ body {
   gap: 80px;
 }
 .cabecalho__menu__link {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--fonts-mont);
   font-size: 24px;
   font-weight: 600;
-  color: #22d4fd;
+  color: var(--color-azul);
   text-decoration: none;
   transition: 0.5s ease;
 }
@@ -44,12 +44,15 @@ body {
   gap: 40px;
 }
 
+.span__cert {
+  color: var(--color-azul);
+}
 section {
-  color: #f6f6f6;
+  color: var(--color-branco);
 }
 
 section .container__content__title {
-  font-family: "Krona One", sans-serif;
+  font-family: var(--fonts-krona);
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -57,7 +60,7 @@ section .container__content__title {
 }
 
 .color__blue {
-  color: #22d4fd;
+  color: var(--color-azul);
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
@@ -80,22 +83,22 @@ section .container__content__text {
 }
 
 .links .links_title {
-  font-family: "Krona One", sans-serif;
+  font-family: var(--fonts-krona);
   font-size: 24px;
   font-weight: normal;
 }
 .links .links__a {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--fonts-mont);
   font-weight: 600;
-  background-color: #000;
-  border: 2px solid #22d4fd;
+  background-color: var(--bg-black);
+  border: 2px solid var(--color-azul);
   width: 378px;
   padding: 21.5px 0px;
   font-size: 24px;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;
-  color: #f6f6f6;
+  color: var(--color-branco);
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -122,8 +125,8 @@ section .container__content__text {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  position: fixed;
+  /* position: fixed;
   left: 0;
   width: 100%;
-  bottom: 0;
+  bottom: 0; */
 }
