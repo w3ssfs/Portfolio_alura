@@ -10,4 +10,9 @@
   /* FONTS */
   --fonts-mont: "Montserrat", sans-serif;
   --fonts-krona: "Krona One", sans-serif;
+
+  /* FONTS SIZE */
+
+  --fonts-36px: 2.25rem;
+  --fonts-24px: 1.5rem;
 }
