@@ -145,3 +145,9 @@ section .container__content__text {
     width: auto;
   }
 }
+
+@media (max-width: 430px) {
+  .cabecalho__menu {
+    gap: 40px;
+  }
+}
